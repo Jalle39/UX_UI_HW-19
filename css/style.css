@@ -234,7 +234,7 @@ img {
   }
   .cardText {
     color: white;
-    background:#349EFF;
+    background-color:#349EFF;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 10px;
@@ -243,7 +243,7 @@ img {
     
   }
   .cardText:hover{
-    background: #1F4F7C;
+    background-color: #1F4F7C;
     color: white;
 
   } 

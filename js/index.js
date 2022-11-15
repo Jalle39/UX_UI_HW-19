@@ -5,7 +5,7 @@ $(document).ready(funtion(){
     if (this. hash !=="pageTop"){
       event.preventDefault();
       var hash= this.hash
-    });
+    };
  
 
     $('html, body').animate({
@@ -35,9 +35,13 @@ $(document).ready(funtion(){
     //   });
     // });
 
-    $('.cardText').hover(function(){
-      $('.cardText','background','#767676');
-    });       
+    $(".workCards").hover(
+      function myFunction() {
+            document.getElementById(".workCards").style.backgroundColor = "#1F4F7C";
+      },
+      function myFunction() {
+         document.getElementById(".workCards").style.backgroundColor = "#349EF";
+       })      
     
 
 
